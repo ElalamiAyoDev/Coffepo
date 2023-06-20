@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  background: #c5925e30;
+  padding: 0 3rem;
+  z-index: 1000;
+}
+
+.logo {
+  width: 20rem;
+}
+
+.navigation {
+  flex: 1;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2.5rem;
+  /* color: #f1f2f6; */
+}
+
+.navigation__link {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #e8e7cf;
+  transition: 0.3s;
+}
+
+.navigation__link:hover {
+  color: #802f20;
+}
